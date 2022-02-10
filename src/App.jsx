@@ -46,7 +46,7 @@ const App = () => {
     // String, hex code of the chainId of the Rinkebey test network
     const rinkebyChainId = "0x4"; 
     if (chainId !== rinkebyChainId) {
-      alert("You are not connected to the Rinkeby Test Network!");
+      console.log("connect to rinkeby network!!")
     }
   }
 
@@ -153,9 +153,9 @@ const App = () => {
       <div className="container">
         
         <div className="header-container">
-          <p className="header gradient-text">Want some NFT</p>
+          <p className="header gradient-text">ENEUTRAL</p>
           <p className="sub-text">
-            Get a unique "hello good morning people" NFTs in combo of all languages. Connect your waleet and click "mint NFT" button to get a awesome NFT.
+            Get a unique "hello good morning people" NFTs in combo of all languages. Connect your waleet and click "mint NFT" button to get a awesome NFT. The NFT goal is to create a community which focuses on climate neutality and to reduce carbon footprint.
           </p>
           {currentAccount === "" ? (
             renderNotConnectedContainer()
