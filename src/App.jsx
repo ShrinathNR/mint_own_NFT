@@ -6,7 +6,7 @@ import twitterLogo from './assets/twitter-logo.svg';
 import { ethers } from "ethers";
 import abi from "./utils/MyEpicNFT.json"
 // Constants
-const TWITTER_HANDLE = 'Resiquents';
+const TWITTER_HANDLE = '0xshrinath';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = 'https://testnets.opensea.io/collection/squarenft-eggfpbu4wf';
 const TOTAL_MINT_COUNT = 100;
