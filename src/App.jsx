@@ -155,7 +155,7 @@ const App = () => {
         <div className="header-container">
           <p className="header gradient-text">ENEUTRAL</p>
           <p className="sub-text">
-            Get a unique "hello good morning people" NFTs in combo of all languages. Connect your waleet and click "mint NFT" button to get a awesome NFT. The NFT goal is to create a community which focuses on climate neutality and to reduce carbon footprint.
+            Get a unique "hello good morning people" NFTs in combo of all languages. Connect your wallet and click "mint NFT" button to get a awesome NFT. The NFT goal is to create a community which focuses on climate neutality and to reduce carbon footprint.
           </p>
           {currentAccount === "" ? (
             renderNotConnectedContainer()
